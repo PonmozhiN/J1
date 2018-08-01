@@ -10,12 +10,12 @@ public class Stringint {
 		int n=sn.nextInt();
 		sn.close();
 		System.out.print(s);
-		char st[]=s.toCharArray();
+	
 		for(int i=0;i<n;i++)
 		{
-			for(int j=n;j<st.length;j++)
+			for(int j=s.length()-n;j<s.length();j++)
 			{
-				System.out.print(st[j]);
+		System.out.print(s.charAt(j));
 			}
 		}
 		
